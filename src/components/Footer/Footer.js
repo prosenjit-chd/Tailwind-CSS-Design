@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div class="mt-12">
-            <div class="grid grid-cols-4 gap-4">
+            <div class="grid lg:grid-cols-4 grid-cols-1 gap-4 lg:px-20 px-8 lg:py-0 py-4">
                 <div>
                     <h1 class="text-2xl font-extrabold">NFTERS</h1>
                     <h2 class="my-4 font-normal">The world's first and lagest digital marketplace
@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div class="ml-16">
+                <div class="lg:ml-16 lg:py-0 py-4">
                     <ul>
                         <li>
                             <h5 class="text-xl font-bold mb-3">Market Place</h5>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div >
+                <div className='lg:py-0 py-4'>
                     <ul>
                         <li>
                             <h5 class="text-xl font-bold mb-3">My Account</h5>
@@ -42,7 +42,7 @@ const Footer = () => {
                         <li class="font-semibold my-1">Settings</li>
                     </ul>
                 </div>
-                <div>
+                <div className='lg:py-0 py-4'>
                     <h1 class="text-xl font-bold">Stay in the loop</h1>
                     <h2 class="my-4 font-normal">Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs</h2>
                     <button class="rounded-full bg-indigo-700 text-white px-8 py-3 ml-4 mt-6">Subscibe Now</button>

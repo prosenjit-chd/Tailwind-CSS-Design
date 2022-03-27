@@ -12,7 +12,7 @@ import FourthSection from './components/FourthSection/FourthSection';
 
 function App() {
   return (
-    <div className="App lg:px-20">
+    <div className="App">
       <Header />
       <Banner />
       <ThirdSection />

@@ -4,7 +4,7 @@ import { FaEthereum } from "react-icons/fa";
 const Banner = () => {
     return (
         <>
-            <div class="grid grid-cols-2 gap-4 py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 lg:px-20 px-8  gap-4 py-20">
                 <div >
                     <h1 class="text-4xl font-extrabold">DISCOVER, AND COLLECT <br />DIGITAL ART NFTS</h1>
                     <h2 class="mt-4 font-normal">Digital marketplace for crypto collectibles and <br /> non-fungible tokens (NFTs). Buy, Sell, and discover <br /> exclusive digital assets.</h2>
@@ -24,9 +24,9 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="mx-auto">
                     {/* <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" class="px-4 rounded-lg" alt="Flowbite Logo" /> */}
-                    <div className='relative h-96 ml-40'>
+                    <div className='relative h-96'>
                         <img className='object-cover h-96 w-80 rounded-2xl' src="https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
                         <img className='absolute md:top-8 md:left-6 top-24 object-cover h-80 md:w-80 w-80 rounded-2xl' src="https://images.unsplash.com/photo-1557264305-7e2764da873b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" style={{ 'zIndex': '-1' }} />
                         <img className='absolute md:top-12 md:left-12 top-40 object-cover h-72 md:w-80 w-80 rounded-2xl' src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="" style={{ 'zIndex': '-2' }} />
