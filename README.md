@@ -2,7 +2,7 @@
  (For tailwind css design focus)
 
 # Live Site Link
-(https://ubiquitous-otter-9f2eca.netlify.app/)
+(https://tailwind-design-prosenjit-chd.netlify.app/)
 
 ## About Project
 
